@@ -184,24 +184,42 @@
 
       </head>
       <body>
-          <div class="wrapper">
-
-              <div class="picture">
-                  <img src="photo_2024-02-14_01-18-45.jpg" sizes="fit-content"  class="img-fluid" alt="Responsive image"> 
+        <
+        <html lang="en">
+          <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Responsive and Smaller Images</title>
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+          <style>
+            /* Additional styles can be added here if needed */
+            .item img {
+              width: 100%; /* Make the images take 100% of their container's width */
+              max-width: 300px; /* Set a maximum width for the images */
+              height: auto; /* Maintain aspect ratio */
+              display: block; /* Remove any extra spacing beneath the image */
+              margin: 0 auto; /* Center the images within their container */
+            }
+          </style>
+          </head>
+          <body>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <img src="photo_2024-02-14_01-18-45.jpg" class="img-fluid" alt="Responsive"> 
               </div>
-              <div class="picture">
-                  <img src="WhatsApp Image 2024-02-14 at 05.22.08_748b0a67.jpg" alt="Describe Image">
+              <div class="col-12 col-md-6">
+                <img src="WhatsApp Image 2024-02-14 at 05.22.08_748b0a67.jpg" class="img-fluid" alt="Responsive">
               </div>
-              <div class="picture">
-                  <img src="WhatsApp Image 2024-02-14 at 05.22.08_56717fe3.jpg" alt="Describe Image">
+              <div class="col-12 col-md-6">
+                <img src="WhatsApp Image 2024-02-14 at 05.22.08_56717fe3.jpg" class="img-fluid" alt="Responsive">
               </div>
-              <div class="picture">
-                  <img src="WhatsApp Image 2024-02-14 at 05.22.09_a6d26827.jpg" alt="Describe image">
+              <div class="col-12 col-md-6">
+                <img src="WhatsApp Image 2024-02-14 at 05.22.09_a6d26827.jpg" class="img-fluid" alt="Responsive">
               </div>
-             
-              </div>
+            </div>
           </div>
-      </body>
       </html>
 
       <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
